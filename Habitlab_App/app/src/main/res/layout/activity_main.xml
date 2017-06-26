@@ -11,14 +11,30 @@
     tools:context="edu.stanford.habitlab_app.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to" />
-
-    <TextView
+        android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="Welcome to" />
+
+    <TextView
+        android:id="@+id/habitlab_text"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
         android:text="HABITLAB" />
+
+
+    <Button
+        android:id="@+id/getStarted"
+        android:layout_below="@+id/habitlab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Get Started"/>
 
 </RelativeLayout>

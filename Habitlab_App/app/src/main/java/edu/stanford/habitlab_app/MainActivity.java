@@ -22,8 +22,4 @@ public class MainActivity extends AppCompatActivity {
         //start google login activity
     }
 
-    // test
-    // test 2
-    // test 3
-
 }

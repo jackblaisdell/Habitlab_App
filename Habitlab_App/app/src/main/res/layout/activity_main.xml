@@ -36,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:onClick="onStart"
         android:text="Get Started"/>
 
 
@@ -46,6 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:onClick="login"
         android:text="Already have an account? Login"/>
 
 

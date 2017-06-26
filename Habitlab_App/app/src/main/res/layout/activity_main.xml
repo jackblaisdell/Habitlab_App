@@ -31,10 +31,23 @@
 
     <Button
         android:id="@+id/getStarted"
+        android:layout_marginTop="55sp"
         android:layout_below="@+id/habitlab_text"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="Get Started"/>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_marginTop="25sp"
+        android:layout_below="@+id/getStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Already have an account? Login"/>
+
+
 
 </RelativeLayout>
